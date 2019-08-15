@@ -1,0 +1,16 @@
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\CoreTempToMQTT.exe.config
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\CoreTempToMQTT.exe
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\CoreTempToMQTT.pdb
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\CoreTempToMQTT.xml
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\GetCoreTempInfoNET.dll
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.vbprojAssemblyReference.cache
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.frmCoreTempToMQTT.resources
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.Resources.resources
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.vbproj.GenerateResource.cache
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.vbproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.vbproj.CopyComplete
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.exe
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.xml
+C:\Users\Matt\source\repos\WindowsApp3\WindowsApp3\obj\Debug\CoreTempToMQTT.pdb
