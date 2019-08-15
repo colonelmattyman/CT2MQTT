@@ -63,6 +63,7 @@ The followign sensor topics are generated:
  - sensor/<hostname>/cpuX/coreX/load/average (1 for each core)
 
 HomeAssistant Sensors.
+
 Basic format is :
 
 sensor:
