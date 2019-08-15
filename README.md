@@ -1,8 +1,9 @@
 # CT2MQTT
 Core Temp to MQTT
 
-Core Temp to MQTT is an app developed to address the issue of publishing the CPU temperature and load stats to MQTT so that they can be 
-displayed in other applications like Homeassistant (HASS.io).
+Note: The code is messy. I'll probably spend some time in the future tidying it up and commenting it properly.  I wrote this over the space of a few days.
+
+Core Temp to MQTT is an app developed to address the issue of publishing the CPU temperature and load stats to MQTT so that they can be displayed in other applications like Homeassistant (HASS.io).
 
 Prerequisites:
 - CoreTemp will need to be running on your machine for this app to function. You can download and install CoreTemp from here 
@@ -12,14 +13,11 @@ Prerequisites:
 
 Why did I develop this? 
 I personally run HomeAssistant on a Windows NUC in a Virtual Box VM and I was having issues with weird restarts and other issues with HA.
-It turned out that the fan had died on the NUC which was causing CPU throttling. Additionly the WiFi card in the NUC gets extremely hot
-when in use and with the lack of airflow it was also causing the M2 SSD (which is directly above it) to operate in hotter than normal 
-temperatures and causing it to behave erratically.
+It turned out that the fan had died on the NUC which was causing CPU throttling. Additionly the WiFi card in the NUC gets extremely hot when in use and with the lack of airflow it was also causing the M2 SSD (which is directly above it) to operate in hotter than normal temperatures and causing it to behave erratically.
 
 How?
-The app uses two external libraries, one provided by the author of CoreTemp (https://www.alcpu.com/CoreTemp/developers.html) and the other
-provided by M2MQTT (http://m2mqtt.wordpress.com).
-My app essentially just bridges the gap between these two libraries.
+The app uses two external libraries, one provided by the author of CoreTemp (https://www.alcpu.com/CoreTemp/developers.html) and the other provided by M2MQTT (http://m2mqtt.wordpress.com).
+M2MQTT essentially just bridges the gap between these two libraries.
 
 Installation.
 Run the included installer and then open the app from the Windows menu.
@@ -29,8 +27,7 @@ Username                    - Username to access the MQTT server.
 Password                    - Password to access the MQTT server.
 Poll Core Temp (ms)         - This is the amount of milliseconds CT2MQTT will wait to Poll Core Temp for new data.
 MQTT Current (ms)           - This is the amount of milliseconds that CT2MQTT will wait before publishing the data to the MQTT server.
-MQTT Average (ms)           - CT2MQTT also calculates a 10 point moving average for each core's Temperate and Load.   This is the amount of
-                              milliseconds that CT2MQTT waits before publishing that data to the MQTT server.
+MQTT Average (ms)           - CT2MQTT also calculates a 10 point moving average for each core's Temperate and Load.   This is the amount                               of milliseconds that CT2MQTT waits before publishing that data to the MQTT server.
 Run app as windows start up - Ticking this will run the app when Windows starts.
 Minimise on start           - Ticking this will minimise the app to the system tray when it starts.
 Stat polling on start up    - Ticking this will cause CT2MQTT to start polling Core Temp and publishing the data to the MQTT 
