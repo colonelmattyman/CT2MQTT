@@ -41,23 +41,23 @@ Show YAML Config            - For HomeAssistant users.  This will open a text bo
 
 MQTT Topics.
 The followign sensor topics are generated:
- - sensor/<hostname>/cpu/hostname
- - sensor/<hostname>/cpu/name
- - sensor/<hostname>/cpu/count
- - sensor/<hostname>/cpu/core/count
- - sensor/<hostname>/cpu/fsbspeed
- - sensor/<hostname>/cpu/multiplier
- - sensor/<hostname>/cpu/speed
- - sensor/<hostname>/cpu/speed/text
- - sensor/<hostname>/cpu/voltage
- - sensor/<hostname>/cpu/voltage/text
- - sensor/<hostname>/cpu/temptype
- - sensor/<hostname>/cpuX/coreX/temperature (1 for each core)
- - sensor/<hostname>/allcores/temperatureaverage
- - sensor/<hostname>/cpuX/coreX/load (1 for each core)
- - sensor/<hostname>/allcores/loadaverage 
- - sensor/<hostname>/cpuX/coreX/temperature/average (1 for each core)
- - sensor/<hostname>/cpuX/coreX/load/average (1 for each core)
+ - sensor/hostname/cpu/hostname
+ - sensor/hostname/cpu/name
+ - sensor/hostname/cpu/count
+ - sensor/hostname/cpu/core/count
+ - sensor/hostname/cpu/fsbspeed
+ - sensor/hostname/cpu/multiplier
+ - sensor/hostname/cpu/speed
+ - sensor/hostname/cpu/speed/text
+ - sensor/hostname/cpu/voltage
+ - sensor/hostname/cpu/voltage/text
+ - sensor/hostname/cpu/temptype
+ - sensor/hostname/cpuX/coreX/temperature (1 for each core)
+ - sensor/hostname/allcores/temperatureaverage
+ - sensor/hostname/cpuX/coreX/load (1 for each core)
+ - sensor/hostname/allcores/loadaverage 
+ - sensor/hostname/cpuX/coreX/temperature/average (1 for each core)
+ - sensor/hostname/cpuX/coreX/load/average (1 for each core)
 
 HomeAssistant Sensors.
 
@@ -66,8 +66,5 @@ Basic format is :
 sensor:
   - platform: mqtt
     state_topic: "sensor/<hostname>/cpuX/coreY/temperature"
-    name: <hostname>_cpuX_coreY_temperature
+    name: hostname_cpuX_coreY_temperature
     unit_of_measurement: '°C'
-
-
-                              
