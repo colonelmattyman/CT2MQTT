@@ -68,3 +68,6 @@ sensor:
     state_topic: "sensor/<hostname>/cpuX/coreY/temperature"
     name: hostname_cpuX_coreY_temperature
     unit_of_measurement: '°C'
+
+If you like this app please consider buying me a coffee.  
+https://www.buymeacoffee.com/h9oFClH
