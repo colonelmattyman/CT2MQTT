@@ -17,7 +17,7 @@ It turned out that the fan had died on the NUC which was causing CPU throttling.
 
 How?
 The app uses two external libraries, one provided by the author of CoreTemp (https://www.alcpu.com/CoreTemp/developers.html) and the other provided by M2MQTT (http://m2mqtt.wordpress.com).
-M2MQTT essentially just bridges the gap between these two libraries.
+CT2MQTT essentially just bridges the gap between these two libraries.
 
 Installation.
 Run the included installer and then open the app from the Windows menu.
