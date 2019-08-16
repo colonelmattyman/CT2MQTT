@@ -15,7 +15,7 @@ Core Temp to MQTT is an app developed to address the issue of publishing the CPU
 I personally run HomeAssistant on a Windows NUC in a Virtual Box VM and I was having issues with weird restarts and other issues with HA.
 It turned out that the fan had died on the NUC which was causing CPU throttling. Additionly the WiFi card in the NUC gets extremely hot when in use and with the lack of airflow it was also causing the M2 SSD (which is directly above it) to operate in hotter than normal temperatures and causing it to behave erratically.
 
-### How?
+### How does it work?
 The app uses two external libraries, one provided by the author of CoreTemp (https://www.alcpu.com/CoreTemp/developers.html) and the other provided by M2MQTT (http://m2mqtt.wordpress.com).
 CT2MQTT essentially just bridges the gap between these two libraries.
 
@@ -63,11 +63,13 @@ The followign sensor topics are generated:
 
 Basic format is :
 
-`sensor:
+```yaml
+sensor:
   - platform: mqtt
     state_topic: "sensor/<hostname>/cpuX/coreY/temperature"
     name: hostname_cpuX_coreY_temperature
-    unit_of_measurement: '°C'`
+    unit_of_measurement: '°C'
+```
 
 If you like this app please consider buying me a coffee.  
 https://www.buymeacoffee.com/h9oFClH
