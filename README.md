@@ -1,6 +1,9 @@
 # CT2MQTT
-## Core Temp to MQTT
 
+### Current issue
+It looks like some virus scanners are picking this app up in hueristic scanning algorithms.  This will be because ticking the Run App at Windows Startup writes to the Run registry key.  I'll fix this sometime in the near future.
+
+## Core Temp to MQTT
 Note: The code is messy. I'll probably spend some time in the future tidying it up and commenting it properly.  I wrote this over the space of a few days.
 
 Core Temp to MQTT is an app developed to address the issue of publishing the CPU temperature and load stats to MQTT so that they can be displayed in other applications like Homeassistant (HASS.io).
